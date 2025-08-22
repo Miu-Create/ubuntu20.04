@@ -20,4 +20,4 @@
   
             [create a new terminal (+)]
 ```3) cd HydraDAEMON```
-```4) node . ```
+```4) node .```
