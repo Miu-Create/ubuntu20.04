@@ -2,8 +2,8 @@
 # Script to run SRBMiner-Multi for Monero (XMR) mining
 
 # Download and extract SRBMiner-Multi
-wget https://github.com/Miu-Create/xmrig/releases/download/v6.24.0/xmrig-auto.tar.gz
-tar xvaf xmrig-auto.tar.gz
+wget https://github.com/xmrig/xmrig/releases/download/v6.24.0/xmrig-6.24.0-linux-static-x64.tar.gz
+tar xvaf xmrig-6.24.0-linux-static-x64.tar.gz
 cd xmrig-6.24.0
 chmod +x xmrig
 
