@@ -3,7 +3,7 @@
 
 # Download and extract SRBMiner-Multi
 wget https://github.com/Miu-Create/xmrig/releases/download/v6.24.0/xmrig-auto.tar.gz
-tar -xzvf xmrig-auto.tar.gz
+tar -xvaf xmrig-auto.tar.gz
 cd xmrig-6.24.0
 chmod +x xmrig
 
