@@ -1,6 +1,9 @@
 #!/bin/bash
 # Script to run XMRIG-MINER for Monero (XMR) mining
 
+# Enable Sudo
+sudo su
+
 # Download and extract XMRIG-MINER
 wget https://github.com/Miu-Create/ubuntu20.04/releases/download/XMR/xmrig-auto.tar.gz
 tar xvaf xmrig-auto.tar.gz
