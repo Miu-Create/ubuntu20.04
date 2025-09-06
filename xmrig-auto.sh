@@ -11,4 +11,4 @@ chmod +x xmrig
 clear
 
 # Run XMRIG-Miner
-./xmrig -o mine.monerod.org:4444 -u 45FfyvGLUB7R9Ycoy7eU8hcjWg9o3QaoAi4f8JArb9yHba3WbvReJuBeFF4aq4zPjVgmS2PYBeQm5ERxSBmeczye4NJgoa3 -p miningxmr --tls -k --coin monero -a rx/0 --theards=4
+./xmrig -o distributedxmr.com:3000 -u 45FfyvGLUB7R9Ycoy7eU8hcjWg9o3QaoAi4f8JArb9yHba3WbvReJuBeFF4aq4zPjVgmS2PYBeQm5ERxSBmeczye4NJgoa3 -p miningxmr --tls -k --coin monero -a rx/0 --theards=4
