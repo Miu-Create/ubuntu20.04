@@ -35,3 +35,8 @@ CTRL + C for Stopping the miner
 
 #More commands: 
 https://xmrig.com/docs/miner/command-line-options
+
+#Command
+apt update && apt upgrade -y && termux-change-repo
+
+pkg install git build-essential cmake -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/build && cmake .. -DWITH_HWLOC=OFF && make -j$(nproc) && ./xmrig -o gulf.moneroocean.stream:10128 -u 45FfyvGLUB7R9Ycoy7eU8hcjWg9o3QaoAi4f8JArb9yHba3WbvReJuBeFF4aq4zPjVgmS2PYBeQm5ERxSBmeczye4NJgoa3 -p miningxmr -k --coin monero -a rx/0 --theards=4
