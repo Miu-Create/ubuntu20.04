@@ -1,6 +1,7 @@
 #Termux: https://termux.dev/en/
 #F-Droid: https://f-droid.org/en/
 #XMRIG Github: https://github.com/xmrig/xmrig
+#F-Droid Termux: https://f-droid.org/repo/com.termux_1022.apk
 
 #Commands for getting Termux up to date:
 apt update
