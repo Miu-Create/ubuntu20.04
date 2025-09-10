@@ -46,4 +46,23 @@ cd xmrig/build && ./xmrig -o gulf.moneroocean.stream:10128 -u 45FfyvGLUB7R9Ycoy7
 
 
 # Command For UserLand
-apt update && apt upgrade -y && apt install git -y && apt install build-essential -y && apt install libssl-dev -y && apt install libgmp-dev -y && wget https://github.com/Miu-Create/ubuntu20.04/releases/download/XMR/xmrig-auto.tar.gz && tar xvaf xmrig-auto.tar.gz && rm -f xmrig-auto.tar.gz && cd xmrig-6.24.0 && chmod +x xmrig && clear
+sudo apt update
+sudo apt upgrade
+
+
+sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+
+
+
+git clone https://github.com/xmrig/xmrig.git
+
+
+cd xmrig
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make -j$(nproc)
