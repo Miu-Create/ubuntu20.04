@@ -13,6 +13,9 @@ termux-change-repo
 #Getting Essentials
 pkg install git build-essential cmake -y
 
+#Libray For UserLand
+sudo apt install git-y build-essential-y cmake-y libuv1-dev-y libssl-dev-y libhwloc-dev-y
+
 #Getting XMRig files
 git clone https://github.com/xmrig/xmrig.git
 
