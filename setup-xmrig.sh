@@ -2,7 +2,9 @@
 #F-Droid: https://f-droid.org/en/
 #XMRIG Github: https://github.com/xmrig/xmrig
 #F-Droid UserLand: https://f-droid.org/repo/tech.ula_7438725.apk
-
+#Account VNC
+miningxmrcoin
+@DuckXMR
 #Commands for getting Termux up to date:
 apt update
 apt upgrade -y
