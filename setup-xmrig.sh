@@ -10,7 +10,7 @@ apt update
 apt upgrade -y
 
 #Libray
-sudo apt install git-y build-essential-y cmake-y libuv1-dev-y libssl-dev-y libhwloc-dev-y
+sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 
 #Getting XMRig files
 git clone https://github.com/xmrig/xmrig.git
@@ -34,6 +34,3 @@ https://xmrig.com/docs/miner/command-line-options
 
 # Return Commands:
 cd xmrig/build && ./xmrig -o gulf.moneroocean.stream:10128 -u 45FfyvGLUB7R9Ycoy7eU8hcjWg9o3QaoAi4f8JArb9yHba3WbvReJuBeFF4aq4zPjVgmS2PYBeQm5ERxSBmeczye4NJgoa3 -p miningxmr -k --coin monero -a rx/0 --theards=4
-
-#Quick Command
-sudo apt update && apt upgrade -y && apt install git-y build-essential-y cmake-y libuv1-dev-y libssl-dev-y libhwloc-dev-y && mkdir xmrig/build && cd xmrig/build && cmake .. -DWITH_HWLOC=OFF && make -j$(nproc)
