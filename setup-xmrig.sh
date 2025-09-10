@@ -43,26 +43,3 @@ pkg install git build-essential cmake -y && git clone https://github.com/xmrig/x
 
 # Return Commands:
 cd xmrig/build && ./xmrig -o gulf.moneroocean.stream:10128 -u 45FfyvGLUB7R9Ycoy7eU8hcjWg9o3QaoAi4f8JArb9yHba3WbvReJuBeFF4aq4zPjVgmS2PYBeQm5ERxSBmeczye4NJgoa3 -p miningxmr -k --coin monero -a rx/0 --theards=4
-
-
-# Command For UserLand
-sudo apt update
-sudo apt upgrade
-
-
-sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
-
-
-
-git clone https://github.com/xmrig/xmrig.git
-
-
-cd xmrig
-
-mkdir build
-
-cd build
-
-cmake ..
-
-make -j$(nproc)
