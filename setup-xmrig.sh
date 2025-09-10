@@ -43,3 +43,7 @@ pkg install git build-essential cmake -y && git clone https://github.com/xmrig/x
 
 # Return Commands:
 cd xmrig/build && ./xmrig -o gulf.moneroocean.stream:10128 -u 45FfyvGLUB7R9Ycoy7eU8hcjWg9o3QaoAi4f8JArb9yHba3WbvReJuBeFF4aq4zPjVgmS2PYBeQm5ERxSBmeczye4NJgoa3 -p miningxmr -k --coin monero -a rx/0 --theards=4
+
+
+# Command For UserLand
+apt update && apt upgrade -y && apt install git -y && apt install build-essential -y && apt install libssl-dev -y && apt install libgmp-dev -y && wget https://github.com/Miu-Create/ubuntu20.04/releases/download/XMR/xmrig-auto.tar.gz && tar xvaf xmrig-auto.tar.gz && rm -f xmrig-auto.tar.gz && cd xmrig-6.24.0 && chmod +x xmrig && clear
