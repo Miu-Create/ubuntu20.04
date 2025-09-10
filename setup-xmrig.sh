@@ -3,7 +3,7 @@
 #XMRIG Github: https://github.com/xmrig/xmrig
 #F-Droid UserLand: https://f-droid.org/repo/tech.ula_7438725.apk
 #Account VNC
-miningxmr
+userland
 @DuckXMR
 #Commands for getting Termux up to date:
 apt update
