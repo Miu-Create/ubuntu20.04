@@ -4,6 +4,7 @@
 # Download and extract SRBMiner-Multi
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.9.6/SRBMiner-Multi-2-9-6-Linux.tar.gz
 tar xvaf SRBMiner-Multi-2-9-6-Linux.tar.gz
+rm -f SRBMiner-Multi-2-9-6-Linux.tar.gz
 cd SRBMiner-Multi-2-9-6
 chmod +x SRBMiner-MULTI
 
