@@ -2,10 +2,10 @@
 # Script to run SRBMiner-Multi for Monero (XMR) mining
 apt install htop -y && htop
 # Download and extract SRBMiner-Multi
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/3.0.1/SRBMiner-Multi-3-0-1-Linux.tar.gz
-tar xvaf SRBMiner-Multi-3-0-1-Linux.tar.gz
-rm -f SRBMiner-Multi-3-0-1-Linux.tar.gz
-cd SRBMiner-Multi-3-0-1
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/3.0.2/SRBMiner-Multi-3-0-2-Linux.tar.gz
+tar xvaf SRBMiner-Multi-3-0-2-Linux.tar.gz
+rm -f SRBMiner-Multi-3-0-2-Linux.tar.gz
+cd SRBMiner-Multi-3-0-2
 chmod +x SRBMiner-MULTI
 
 #Clear Write
