@@ -12,5 +12,5 @@ chmod +x SRBMiner-MULTI
 clear
 
 # Run SRBMiner-Multi
-./SRBMiner-MULTI --disable-gpu --algorithm randomx --pool xmr.ss.dxpool.com:6666 --wallet 45FfyvGLUB7R9Ycoy7eU8hcjWg9o3QaoAi4f8JArb9yHba3WbvReJuBeFF4aq4zPjVgmS2PYBeQm5ERxSBmeczye4NJgoa3.Worker_01 --cpu-theards 8
+./SRBMiner-MULTI --disable-gpu --algorithm randomx --pool xmr.ss.dxpool.com:6666 --wallet MrGoogle.Worker_02 --cpu-theards 8
 ./SRBMiner-MULTI --algorithm randomx --pool xmr.ss.dxpool.com:6666 --wallet 45FfyvGLUB7R9Ycoy7eU8hcjWg9o3QaoAi4f8JArb9yHba3WbvReJuBeFF4aq4zPjVgmS2PYBeQm5ERxSBmeczye4NJgoa3.Worker_01 --keepalive true
