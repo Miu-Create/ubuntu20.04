@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script to run SRBMiner-Multi for Monero (XMR) mining
+# Script to run SRBMiner-Multi for Xelis (XEL) mining
 apt install htop -y && htop
 # Download and extract SRBMiner-Multi
 wget https://github.com/doktor83/SRBMiner-Multi/releases/download/3.0.5/SRBMiner-Multi-3-0-5-Linux.tar.gz
