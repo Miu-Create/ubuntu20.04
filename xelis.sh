@@ -4,7 +4,7 @@ apt install htop -y && htop
 #SSHX Install 
 !curl -sSf https://sshx.io/get | sh -s run
 # Download and extract SRBMiner-Multi
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/3.0.6/SRBMiner-Multi-3-0-5-Linux.tar.gz
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/3.0.6/SRBMiner-Multi-3-0-6-Linux.tar.gz
 tar xvaf SRBMiner-Multi-3-0-6-Linux.tar.gz
 rm -f SRBMiner-Multi-3-0-6-Linux.tar.gz
 cd SRBMiner-Multi-3-0-6
